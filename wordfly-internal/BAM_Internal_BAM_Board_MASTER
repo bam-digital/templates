@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="generator" content="WordFly 3.0.0.641" />
+	<!-- Derived from Starter A -->
+
+	<!-- Welcome WordFly user! This is your HTML, we're just guests here.
+		Please don't modify attributes and styles with 'wf' in them, those are for our editor. -->
+
+	<!-- Tell Outlook to use best available rendering engine. -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- For responsive email layout -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<!-- starter styles include a email-client reset, utility classes, and content blocks styles. -->
+	<style data-wfstyle="reset" type="text/css">
+		/* ---------------------------- */
+		/* reset and email-client fixes */
+		/* ---------------------------- */
+
+		html,
+		body {
+			margin: 0;
+			min-width: 100%;
+			padding: 0;
+			width: 100%;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		td,
+		th {
+			padding: 0;
+		}
+
+		img,
+		a img {
+			border: 0;
+			outline: none;
+			text-decoration: none;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 10px 0;
+			padding: 0;
+		}
+
+		p {
+			margin: 0 0 1em 0;
+		}
+
+		h3 {
+			font-size: 16px;
+		}
+
+		a {
+			color: #003be9!important;
+		}
+		/* ------------------ */
+		/* tbe content-blocks */
+		/* ------------------ */
+
+		.preheader-block,
+		.footer-block {
+			padding-top: 1em;
+		}
+		/* used for 2 and 3 "column" areas */
+
+		.column {
+			float: left;
+		}
+
+		.desktop-reverse .column {
+			float: right;
+		}
+
+		.two-columns-block .column {
+			width: 50%;
+		}
+
+		.three-columns-block .column {
+			width: 33.33333333%;
+		}
+		/* 2 columns */
+
+		.two-columns-block.split-33-66 .column:first-child {
+			width: 33.33333333%;
+		}
+
+		.two-columns-block.split-33-66 .column {
+			width: 66.66666666%;
+		}
+
+		.two-columns-block.split-66-33 .column:first-child {
+			width: 66.66666666%;
+		}
+
+		.two-columns-block.split-66-33 .column {
+			width: 33.33333333%;
+		}
+
+		.two-columns-block.split-25-75 .column:first-child {
+			width: 25%;
+		}
+
+		.two-columns-block.split-25-75 .column {
+			width: 75%;
+		}
+
+		.two-columns-block.split-75-25 .column:first-child {
+			width: 75%;
+		}
+
+		.two-columns-block.split-75-25 .column {
+			width: 25%;
+		}
+
+		.two-columns-block.split-20-80 .column:first-child {
+			width: 20%;
+		}
+
+		.two-columns-block.split-20-80 .column {
+			width: 80%;
+		}
+
+		.two-columns-block.split-80-20 .column:first-child {
+			width: 80%;
+		}
+
+		.two-columns-block.split-80-20 .column {
+			width: 20%;
+		}
+		/* 3 columns */
+
+		.three-columns-block.split-50-25-25 .column:first-child {
+			width: 50%;
+		}
+
+		.three-columns-block.split-50-25-25 .column {
+			width: 25%;
+		}
+
+		.three-columns-block.split-25-25-50 .column {
+			width: 25%;
+		}
+
+		.three-columns-block.split-25-25-50 .column:nth-child(3) {
+			width: 50%;
+		}
+		/* image/video elements */
+
+		.full-width,
+		.full-width img {
+			width: 100%;
+		}
+
+		.image-left {
+			float: left;
+			margin: 0 15px 10px 0;
+		}
+
+		.image-right {
+			float: right;
+			margin: 0 0 10px 15px;
+		}
+
+		.image-center {
+			display: block;
+			margin: 0 auto;
+			align: center;
+		}
+		/* social-links */
+
+		div.social-links {
+			padding-top: 20px;
+			text-align: center;
+		}
+
+		table.button-block table {
+			text-align: center;
+			width: 100%;
+		}
+		/* ----------------------- */
+		/* general utility classes */
+		/* ----------------------- */
+
+		div.clear {
+			clear: both;
+		}
+
+		.no-wrap {
+			white-space: nowrap;
+		}
+
+		.desktop-hide {
+			display: none;
+			float: left;
+			max-height: 0;
+			max-width: 0;
+			text-indent: 999999px;
+			visibility: hidden;
+		}
+
+		.desktop-hide.image-right {
+			float: right;
+		}
+
+		.desktop-hide+* {
+			clear: both;
+		}
+
+		h1.heading-bar {
+			font-size: 20px;
+			background: #000000;
+			color: #ffffff;
+			padding: 5px;
+			text-align: center;
+		}
+
+		p.intro {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		p.caption {
+			font-size: 12px;
+			font-style: italic;
+			margin-top: 5px;
+			text-align: right;
+		}
+
+		p.fine-print {
+			font-size: 12px;
+			color: #666666;
+			line-height: 16px;
+		}
+
+		[class*=block] {
+			overflow: hidden;
+			zoom: 1;
+		}
+		/* zoom set for Outlook 2003 */
+
+		[align=center] {
+			text-align: center;
+		}
+
+		[align=left] {
+			text-align: left;
+		}
+
+		[align=right] {
+			text-align: right;
+		}
+	</style>
+
+	<!-- Media query resets, pseudo selectors, and other css rules that cannot be inlined. -->
+	<style data-wfstyle="reset" type="text/css" data-inline-options="preserve: true; ignore: true">
+		/* device width specific (e.g. iPhone-ish) */
+
+		@media only screen and (max-width: 480px) {
+			.two-columns-block:not(.mobile-scale) .column,
+			.three-columns-block:not(.mobile-scale) .column {
+				float: none !important;
+				width: 100% !important;
+			}
+			.desktop-hide {
+				display: block !important;
+				float: inherit !important;
+				max-height: none !important;
+				max-width: none !important;
+				text-indent: 0 !important;
+				visibility: visible !important;
+			}
+			.mobile-hide {
+				display: none !important;
+			}
+		}
+	</style>
+
+	<!-- Starter file specific rules. -->
+	<style data-wfstyle="starter" type="text/css">
+		body {
+			background-color: #ffffff;
+			color: #000000;
+			font-family: Helvetica, Arial, Verdana, sans-serif;
+		}
+
+		#email-container {
+			background-color: #ffffff;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 800px;
+			padding: 15px;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			text-align: center;
+		}
+
+		p {
+			font-size: 17px;
+			line-height: 22px;
+			text-align: center;
+		}
+
+		hr {
+			border-color: #B8B8B8;
+			border-style: solid;
+			border-bottom-width: 0 !important;
+			border-left-width: 0 !important;
+			border-right-width: 0 !important;
+			border-top-width: 1px;
+			margin: 0;
+		}
+
+		a {
+			color: #000099;
+		}
+
+		img {
+			font-size: 18px;
+		}
+
+		div.button {
+			text-align: center;
+		}
+
+		div.button div {
+			background-color: #666666;
+			border-collapse: separate;
+			border-radius: 3px;
+			display: inline-block;
+			padding: 13px 35px;
+			text-align: center;
+		}
+
+		div.button a {
+			color: #ffffff;
+			font-size: 16px;
+			text-decoration: none;
+		}
+
+		.divider-block {
+			padding: 15px 0;
+		}
+
+		.button-block {
+			padding: 15px;
+		}
+
+		.image-block,
+		.video-block {
+			line-height: 0;
+		}
+		/* Image + Text */
+
+		.image-text-block {
+			padding: 15px;
+		}
+
+		.image-text-block>a+div,
+		.image-text-block>img+div {
+			padding-top: 15px;
+		}
+
+		.image-text-block div.button div {
+			margin-bottom: 5px;
+		}
+		/* Text + Button */
+
+		.text-button-block {
+			padding: 15px;
+		}
+
+		.text-button-block div.button div {
+			margin-bottom: 5px;
+		}
+		/* Heading + Image + Text + Button */
+
+		.image-text-button-block,
+		.heading-image-text-block,
+		.heading-image-text-button-block {
+			padding: 15px;
+		}
+
+		.image-text-button-block>a+div,
+		.image-text-button-block>img+div,
+		.heading-image-text-block>a+div,
+		.heading-image-text-block>img+div,
+		.heading-image-text-button-block>a+div,
+		.heading-image-text-button-block>img+div {
+			padding-top: 15px;
+		}
+
+		.heading-image-text-block h1.heading-bar,
+		.heading-image-text-button-block h1.heading-bar {
+			margin: 0 0 15px;
+		}
+
+		.image-text-button-block div.button div,
+		.heading-image-text-button-block div.button div {
+			margin-bottom: 5px;
+		}
+	</style>
+
+	<!-- Basic styling: This is the style tag is edited by the style editor. -->
+	<style data-wfstyle="basic" data-wfeditor="" type="text/css">
+		body {
+			border-color: #c9a6ed;
+		}
+
+		.image-block {
+			margin-left: 30px;
+			margin-right: 30px;
+		}
+
+		#email-container {
+			border: 15px solid #c9a6ed;
+		}
+
+		#image-block-1469563912598 {
+			max-width: 100%;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		img {
+			color: #e9df00;
+		}
+
+		div.button div {
+			border: 100px solid #e9df00;
+			background-color: #ffffff;
+		}
+
+		#image-block-1469564055424 {
+			margin-left: -15px;
+			margin-right: -15px;
+			margin-top: -15px;
+			background-color: #c9a6ed;
+		}
+
+		#text-block-1469556190692 {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#text-block-1474571367424 {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		#social-links-block-1470754129287 {
+			margin-top: 25px;
+		}
+
+		#text-block-1474644626222 {
+			margin-right: 10px;
+		}
+
+		a {
+			font-size: 14px;
+			text-decoration: none;
+			color: #e9df00;
+		}
+
+		#text-block-1474571367424 p.caption {
+			text-align: left;
+		}
+
+		#text-block-1474644626222 a {
+			color: #c9a6ed;
+		}
+
+		#text-block-1474571367424 a {
+			color: #c9a6ed;
+		}
+
+		#text-block-1474988753311 a {
+			color: #c9a6ed;
+		}
+
+		#image-block-1502903061647 {
+			margin-left: auto;
+		}
+	</style>
+
+	<!-- Advanced styling: This is the style tag is edited by the style editor. -->
+	<style data-wfstyle="advanced" data-wfeditor="" type="text/css" data-inline-options="preserve: true; ignore: true">
+		@media only screen and (max-width: 480px) {}
+	</style>
+
+	<!--[if mso]>
+		<style data-wfstyle="outlook" type="text/css">
+			/* Outlook specific duct tape styles */
+			table { border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+			td, th { padding: 0; vertical-align: top; }
+		</style>
+		<![endif]-->
+	<title>Brooklyn Academy of Music</title>
+</head>
+
+<body>
+	<div id="email-container" data-wfeviltwin="align: center; width: 600px" class="">
+
+
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false" id="image-block-1469564055424">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board/16-hr-1054-internalemailtemplate-headers-board-150px.gif?wfts=1474988655092" class="full-width" alt="" />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false" id="text-block-1469556190692">
+			<div data-wfedit="html">
+				<div style="text-align: left;" align="left"><br /></div>
+				<h1 style="text-align: left;" align="left">August 25, 2017</h1>
+			</div>
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+
+
+
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false" id="text-block-1474644626222">
+			<p align="left">Dear BAM and BET Trustees,</p>
+			<div data-wfedit="html">
+				<p align="left" style="text-align: left;" class=""><a href="https://www.nytimes.com/2017/07/19/arts/design/new-york-cultural-plan-museums.html?rref=collection%2Fsectioncollection%2Farts&action=click&contentCollection=arts&region=rank&module=package&version=highlights&contentPlacement=2&pgtype=sectionfront">The New York Times</a>					recently published an article on the city&#8217;s first &#8220;cultural plan&#8221; that will link future funding for arts organizations to their commitment to diversity. In a quote, I highlighted BAM's long commitment to diversity and our eagerness
+					to make further strides. &#160;<br /></p>
+
+
+
+				<p style="text-align: left;" align="left">The BAM Board News This Week will take some time off this summer. &#160;Please look for our next newsletter on Friday, Aug 25.&#160;</p>
+			</div>
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<p style="text-align: left;" align="left"></p>
+				<ul align="start">
+					<li>You are cordially invited to the BAM Board Appreciation Dinner hosted by Diane & Adam E. Max on Monday, Sep 18, 2017 at The River Caf&#233;. Please join us on this special night to acknowledge trustee service and celebrate the 2017 Next Wave Festival.
+						To RSVP, please contact <a href="mailto:patronservices@bam.org" target="_blank">Patron Services</a> at 718.636.4182.<br /></li>
+				</ul>
+				<p align="center"></p>
+			</div>
+		</div>
+
+
+
+
+
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false" id="image-block-1469563912598">
+			<a href="https://www.facebook.com/bamstage/posts/10154234296798713" target="_blank" class=""><img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/1.jpg?wfts=1502893795388" class="image-center" alt="" /></a>
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false" id="text-block-1474988753311">
+			<div data-wfedit="html" class="">
+				<h3 style="text-align: left;">In our first formal residency partnership,&#160;BAM and Lumberyard
+Contemporary Performing Arts will collaborate in&#160;commissioning and
+nuturing three new dance pieces. Joe Melillo chose&#160;David Neumann, Kimberly
+Bartosik, and Kaneza Schall to receive residencies at Lumberyard (formerly
+known as the American Dance Institute) in Catskill, NY. Each will receive
+$10,000 development fee, technical and dramaturgical support, housing, meals, and transportation.
+&#160;The artists' work will premiere at Lumberyard in advance of the 2018 Next
+Wave Festival. You can read more about this exciting partnership in today's <a href="https://www.nytimes.com/2017/07/27/arts/dance/brooklyn-academy-of-music-lumberyard-dance-residencies.html?_r=0">New
+York Times</a>.&#160;</h3></div>
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<p align="left" style="text-align: left;" class="alt"><br /></p>
+				<p class="" align="left" style="text-align: left;">R&B Festival at MetroTech 2017 (Jun 8-Aug 10) provides free outdoor music every Thursday at noon. Next week Grammy Award Winner and Brooklyn native, Cory Henry (Aug 3), performs with his six-member crew The Funk Apostles. The following week features
+					Liv Warfield, Judith Hill, and Shelby J: Love 4 One Another (Aug 10). These three Prince prot&#233;g&#233;s have toured with Michael Jackson, D&#8217;Angelo, Santana, and Stevie Wonder. Come listen as they close out the festival with a big bang.</p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block mobile-hide" draggable="false" id="image-block-1502913063353">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/2.jpg?wfts=1502896200724" class="image-center" alt="" />
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<h3>BAMcin&#233;matek presents three film series opening this week and next:</h3></div>
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html">
+				<p align="center" style="text-align: left;" class="alt"><br /></p>
+				<p align="center" style="text-align: left;"><a href="http://www.bam.org/film/2017/animation-block-party-2017">Animation Block Party 2017</a> (Jul 28-30). Returning for its 14<sup>th</sup> annual edition, this premier festival showcases something for everyone: a clever comedy like <i><a href="http://www.bam.org/film/2017/bee-movie">Bee
+Movie</a></i> (Jul 30), an inside look at <a href="http://www.bam.org/film/2017/cartoon-network-shorts">Cartoon Network Shorts</a> (Jul 30), and a round-up of family-friendly programming in <a href="http://www.bam.org/film/2017/animation-for-kids">Animation
+for Kids</a> (Jul 29).</p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false" id="image-block-1502903061647">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/3.jpg?wfts=1502903031347" class="image-center" alt="" />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<p style="text-align: left;" class="alt"><br /></p>
+				<p align="left" style="text-align: left;" class=""><a href="http://www.bam.org/film/2017/in-concert" class="">In Concert</a> (Jul 31-Aug 13). These outstanding concert films capture iconic pop culture moments from Jay Z&#8217;s <a href="http://www.bam.org/film/2017/fade-to-black">Fade
+to Black</a> (Jul 31) to Bjork&#8217;s <a href="http://www.bam.org/film/2017/bjork-biophilia-live">Biophilia Live</a> (Aug 3). <br /></p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/4.jpg?wfts=1502894859353" class="image-center" alt="" />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html">
+				<h6 style="text-align: left;"><br /></h6>
+				<p style="text-align: left;" align="left"><a href="http://www.bam.org/film/2017/jonathan-demme-heart-of-gold">Jonathan Demme: Heart of Gold</a> (Aug 4-24). Jonathan Demme&#8217;s significant contribution to American cinema is marked by his empathic and profound&#160;storytelling. Enjoy the
+					films that set him apart like <i><a href="http://www.bam.org/film/2017/philadelphia">Philadelphia</a></i> (Aug 6-16), <i><a href="http://www.bam.org/film/2017/the-manchurian-candidate">The Manchurian Candidate</a></i> (Aug 7), and <i><a href="http://www.bam.org/film/2017/the-silence-of-the-lambs">The Silence of the Lambs</a> </i>(Aug
+					12).</p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/5.jpg?wfts=1502894915959" class="full-width" />
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html">
+				<p align="left" class="" style="text-align: left;">In Conjunction with BAM Education, <a href="dancemotionusa.org">DanceMotion USA<sup>SM</sup></a> welcomed 5 international artists and arts managers this week from the Dominican Republic, Ethiopia, Thailand, and Tunisia as part of our Professional
+					Development Program (PDP). Creative Capital led a 4-day workshop focusing on&#160;verbal communications, marketing, promotion, and&#160;web essentials,&#160;and&#160;paired them with a NYC&#160;artist.&#160;The program also included movement workshops
+					taught by Larry Keigwin, Reggie Wilson, and John Heginbotham,&#160;and an informal showing of participants&#8217; work.<br /></p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/6.jpg?wfts=1502895043324" class="full-width" alt="" />
+			<p class="caption">PDP group after taking class with Larry Keigwin Monday morning.</p>
+		</div>
+		<div data-wfcb="divider" data-wflabel="Divider" class="divider-block" draggable="false">
+			<hr />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<p style="text-align: left;" class="">The Second Non-Annual BAM Staff Shuffleboard BBQ Extravaganza&#160;took place on Tuesday. The staff enjoyed a lovely afternoon of shuffleboard, BBQ, and ice cream. Thank you so much to Adam Max and the BAM Board for hosting.
+					<br /></p>
+			</div>
+		</div>
+		<div data-wfcb="image" data-wflabel="Image" class="image-block" draggable="false">
+			<img data-wfedit="image" src="//media.wordfly.com/bam/emails/bam-internal-bam-board-08-10-17-copy-copy/7.jpg?wfts=1502895389076" class="full-width" />
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false">
+			<div data-wfedit="html" class="">
+				<div align="start"><br /></div>
+				<div align="start"><br /></div>
+				<div align="start"><br /></div>
+				<div align="start">All my best,</div>
+				<div align="start"><br /></div>
+				<div align="start">Katy</div>
+				<div align="start"><br /></div>
+			</div>
+		</div>
+		<div data-wfcb="container" data-wflabel="Container" class="container-block" draggable="false"></div>
+		<div data-wfcb="social-links" data-wflabel="Social Links" class="social-links-block" draggable="false" id="social-links-block-1470754129287">
+			<div data-wfedit="html" class="social-links">
+				<p align="center">
+					<a href="https://www.facebook.com/BAMstage" target="_blank"><img src="https://media.wordfly.com/bam/internal-icons/16-mkting-1588-rulesofthegame-updated-062016-2000x762-0039-socialicons-board-facebook.jpg" alt="Facebook" width="36" height="36" /></a>&#160;&#160;
+					<a href="https://www.instagram.com/BAM_Brooklyn/"
+					    target="_blank"><img src="https://media.wordfly.com/bam/internal-icons/16-mkting-1588-rulesofthegame-updated-062016-2000x762-0038-socialicons-board-instagram.jpg" alt="Instagram" width="36" height="36" /></a>&#160;&#160;
+					<a href="https://twitter.com/BAM_Brooklyn"
+					    target="_blank"><img src="https://media.wordfly.com/bam/internal-icons/16-mkting-1588-rulesofthegame-updated-062016-2000x762-0036-socialicons-board-twitter.jpg" alt="Twitter" width="36" height="36" /></a>&#160;&#160;
+					<a href="https://www.youtube.com/user/BAMorg"
+					    target="_blank"><img src="https://media.wordfly.com/bam/internal-icons/16-mkting-1588-rulesofthegame-updated-062016-2000x762-0035-socialicons-board-youtube.jpg" alt="YouTube" width="36" height="36" /></a>&#160;</p>
+			</div>
+		</div>
+		<div data-wfcb="text" data-wflabel="Text" class="text-block" draggable="false" id="text-block-1474571367424">
+			<div data-wfedit="html">
+				<p class="caption" align="left">If you can't view the graphics in this email,&#160;<a href="http://tracking.wordfly.com/view?sid=##subscriberMailingId##" class="" target="_blank">click here</a>.&#160;</p>
+			</div>
+		</div>
+
+
+	</div>
+
+
+</body>
+
+</html>
